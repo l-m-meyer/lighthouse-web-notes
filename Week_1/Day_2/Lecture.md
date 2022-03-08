@@ -53,5 +53,7 @@
 - present tense commit messages are common, but every company has their own style for commit messages
 - If you want to use `main` instead of `master` you need to commit the file first before changing the name of the brach to `main`
 - Don't change history, accept your past and change your future
+- `git add .` adds everything in a directory/folder to staging
 
 ## Make a Small Program
+addNumbers.js
