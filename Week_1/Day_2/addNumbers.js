@@ -4,3 +4,4 @@
 // How do I get command line arguments
 // Once command line arguments have come back...
 // How do I add numbers together?
+// How do I add multiple Numbers together (where size of elements is different)?
