@@ -1,6 +1,5 @@
-// We are tasted to create a program that takes in any number of command line arguments which will be numbers
+// We are tested to create a program that takes in any number of command line arguments which will be numbers
 // Add the numbers together and return a sum of all the numbers
-
 
 const addNumbers = (arr) => {
   // initialize an accumulator
@@ -11,7 +10,7 @@ const addNumbers = (arr) => {
     sum += Number(element);
   }
   return sum;
-}
+};
 
 // retrieve command line arguments and store Numbers in Array numbers
 const args = process.argv;
