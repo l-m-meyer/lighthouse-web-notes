@@ -10,3 +10,14 @@
 const args = process.argv;
 const numbers = args.slice(2);
 console.log(numbers);
+
+// initialize an accumulator
+let sum = 0;
+
+// iterate over numbers Array
+for (let i = 0; i < numbers.length; i++) {
+  console.log("i ",i);
+  console.log("numbers[i] ",numbers[i]);
+  sum += Number(numbers[i]);
+}
+console.log(sum);
