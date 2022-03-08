@@ -57,3 +57,7 @@
 
 ## Make a Small Program
 addNumbers.js
+
+### ---- TIPS ----
+Write readable code!
+It is okay to be a bit more verbose and not have one-liners if the code is readable.
