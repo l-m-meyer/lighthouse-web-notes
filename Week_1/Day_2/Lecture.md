@@ -1,7 +1,7 @@
 # March 8, 2022
 
 ## Dev Workflow
-#### Dev tools used so far
+### Dev tools used so far
   * vscode, notepad++, sublime, atom, etc.
   * node, npm <-- backend (NODE), frontend (JS); node exists on both backend and frontend>
   * eslint
@@ -10,7 +10,7 @@
   * mdns (docs)
   * terminal
   * git
-  ##### ---------------- GIT -------------------
+  ### ---------------- GIT -------------------
   Version Control Software
   Collab tool
 
@@ -40,11 +40,13 @@
 
 * git push
 - `git push origin master`
+- `git push origin main`
 
 * git branch
-- `git branch -M main` means the same as Master branch
+- `git branch -M main` means the same as Master branch // simply a way to rename the branch
+- `git branch` creates a new branch //not going into this today
 
-##### TIPS FOR GIT
+#### ------- TIPS FOR GIT ---------
 - Commit often
 -`git add _file_names`
 -`git commit -m "_commit_message_"`
