@@ -78,7 +78,7 @@ for (const key of Object.keys(somMug)) {
 * Note: Object.entries is not compatible with all values yet
 
 ## Object Keys
-* Square Bracket Notation
+### Square Bracket Notation
   * Can access values of a variable
   * Must use `""` to access key name
   * Square brackets are used if the key name is unknown or iterating over an object
@@ -89,7 +89,7 @@ for (const key of Object.keys(somMug)) {
   someMug["color"]; // Also works
   ```
 
-* Dot Notation
+### Dot Notation
   * Uses a known key name to access the value
   * Must not have any unsual naming conventions like spaces in the key name (E.g., `"hex value": 0000)
   ```javascript
@@ -97,7 +97,7 @@ for (const key of Object.keys(somMug)) {
   someMug.key; // also returns 'white' but uses a variable to access the value stored
   ```
 
-* Delete a Key From an Object
+### Delete a Key From an Object
   * `delete` operator before accessing the Object key
 
 * Add a Key Value to an Object
@@ -106,7 +106,7 @@ someObject.sound = "squeak squeak";
 someObject["sound"] = "squeak squeak";
 ```
 
-* Deep Keys
+### Deep Keys
 ```javascript
 const marianaTrench = {
   name: 'surface',
@@ -163,14 +163,16 @@ someMugOfCoffee.drink(); //calls the function;
 ```
 
 ## Sharing Objects
-[pythontutor.com](pythontutor.com) ==> Has a visualizer to step through the code in Python and JavaScript
+[pythontutor.com](https://pythontutor.com/javascript.html#mode=edit
+) ==> Has a visualizer to step through the code in Python and JavaScript
 
 As long as we don't change the reference (Object name), then we can access and mutate the contents of an Object.
 
 
 ## What is `this`?
-Represents the context in which you are working/where it was defined.
-Always able to access the parent Object, but not the siblings of the parent Object.
+Represents the current context in which you are working/where it was defined.
+
+`this` is always able to access the parent Object, but not the siblings of the parent Object.
 
 ```javascript
 const mugOfCoffee = {
