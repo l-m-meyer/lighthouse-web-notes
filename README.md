@@ -8,3 +8,4 @@ This repository contains all of the notes taken by [Lisa Meyer](https://github.c
 * [Week 1](/Week_1)
   * [Day 1](/Week_1/Day_1/) - Introductions
   * [Day 2](/Week_1/Day_2/) - Dev Workflow
+  * [Day 3](/Week_1/Day_3) - Data Types, Objects, and `this`
