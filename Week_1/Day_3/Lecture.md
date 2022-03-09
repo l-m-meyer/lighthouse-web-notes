@@ -1,6 +1,7 @@
 # March 9, 2022
 
-## Primitive Data Types
+## Data Types
+### Primitive Data Types
 * Number
   - `NaN` is not a data type, but a result of a Number
   - False value === `0`
@@ -44,8 +45,9 @@
   ```
 
 ## Object Fundamentals
-* Keys in Objects must have a value pair
-* Objects can store:
+Keys in Objects must have a value pair
+
+Objects can store:
   * Numbers
   * Strings
   * Booleans
@@ -53,7 +55,7 @@
   * Arrays
   * Functions
 
-### Iterating Over Objects
+## Iterating Over Objects
 * For...in
 ```javascript
 for (const key in someMug) {
@@ -161,9 +163,14 @@ someMugOfCoffee.drink(); //calls the function;
 ```
 
 ## Sharing Objects
+[pythontutor.com](pythontutor.com) ==> Has a visualizer to step through the code in Python and JavaScript
+
+As long as we don't change the reference (Object name), then we can access and mutate the contents of an Object.
+
 
 ## What is `this`?
-Represents the context in which you are working.
+Represents the context in which you are working/where it was defined.
+Always able to access the parent Object, but not the siblings of the parent Object.
 
 ```javascript
 const mugOfCoffee = {
