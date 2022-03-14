@@ -16,27 +16,27 @@ We write tests first, then we write the code to pass the tests.
 * The more we write tests, the better off we will be in the future.
 
 * Code-along [palindrome.js](./palindrome.js)
+* Test code-along: [palindromeTest.js](./test/palindromeTest.js)
 
 ## Module Exports
-
+Module exports only exist on the JS backend, NodeJS.
+### Creating and consuming modules using Node's default CommonJS syntax (`module.exports` and `require`)
 
 ## TDD built-in methods (console.assert)
+First we tested the palindrome.js application using a series of console.log() statements. 
 
+Next, we created a separate file [palindromeTest.js](./palindromeTest.js) (the first) and switched all console.log() statements to console.assert() statements.
 
 ## Mocha and Chai
-
+`npm init` then
+`npm install mocha chai --save-dev` for install
 
 ## Testing with Mocha Chai
-
-
-
-
-
---------------------------------------
-## Using the Mocha BDD test framework
-
-
-## Using the Chai assertion library
-
-
-## Creating and consuming modules using Node's default CommonJS syntax (`module.exports` and `require`)
+###Describe block and it 
+```javascript
+describe('palindrome tests', () => {
+  it('takes abba as input and returns true', () => {
+    assert.isTrue(palindrome('abba'));
+  })
+})
+```

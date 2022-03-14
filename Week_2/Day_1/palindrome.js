@@ -10,7 +10,7 @@ const palindrome = string => {
   if (!string || typeof string !== 'string') return false;
   
   // remove the spaces from the string
-  const sanitizedStr = string.split(' ').join('');
+  const sanitizedStr = string.split(' ').join('').toLowerCase();
   const sanitizedStrReverse = sanitizedStr.split('').reverse().join('');
 
   if (sanitizedStr === sanitizedStrReverse) { //more efficient, less code
